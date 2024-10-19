@@ -25,7 +25,7 @@ If you want to contribute to this project, you can install and build the project
 
 ```bash
 git clone https://github.com/CodeLeom/diff-checker
-cd code-diff-checker
+cd diff-checker
 ```
 
 2. **Install dependencies:**
