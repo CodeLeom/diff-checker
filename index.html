@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/styles.css">
+  <title>Code Diff Checker</title>
+</head>
+<body>
+  <div class="container">
+    <div class="input-section">
+      <h2>Code Diff Checker</h2>
+      <textarea id="oldText" rows="10" cols="50" placeholder="Old Version"></textarea>
+      <textarea id="newText" rows="10" cols="50" placeholder="New Version"></textarea>
+      <button id="compareBtn">Compare</button>
+    </div>
+
+    <div class="output-section">
+      <h2>Diff Output</h2>
+      <pre id="diffOutput" class="diff-output"></pre>
+    </div>
+  </div>
+
+  <script src="./dist/bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+  }
+ 
+  .input-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+
+  .output-section {
+    margin-top: 20px;
+    flex: 1;
+  }
+  
+
+  .diff-output {
+    background-color: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    padding: 10px;
+    white-space: pre-wrap; 
+    font-family: 'Courier New', monospace;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+
+  .added {
+    background-color: #e6ffed;
+    color: #22863a;
+  }
+  
+
+  .removed {
+    background-color: #ffeef0;
+    color: #d73a49;
+  }
+  
+
+  .diff-output div {
+    padding: 5px;
+    white-space: pre-wrap; 
+  }
+  
+ 
+  button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }  
