@@ -1,4 +1,4 @@
-#  or Text Difference Checker - Browser Extension
+# Code or Text Difference Checker - Browser Extension
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -12,7 +12,7 @@
 - Highlights added, removed, and unchanged lines.
 - Easy to use in any modern web browser.
 
-## Screenchot
+## Screenshot
 
 ![app Screenshot](diffChecker.png) 
 
