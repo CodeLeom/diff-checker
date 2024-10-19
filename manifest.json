@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Code Diff Checker",
+    "version": "1.0",
+    "description": "A simple code or text diff checker that highlights the differences between two text inputs.",
+    "action": {
+      "default_popup": "index.html",
+      "default_title": "Open Diff Checker"
+    },
+    "permissions": [],
+    "icons": {
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["dist/bundle.js"],
+        "css": ["src/styles.css"]
+      }
+    ]
+  }  
